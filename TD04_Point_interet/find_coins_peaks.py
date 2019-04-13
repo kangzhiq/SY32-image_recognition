@@ -11,7 +11,7 @@ noyaux_x = [[-1, 0, 1],[-2, 0, 2],[-1, 0, 1]]
 Ix = scipy.ndimage.filters.convolve(camera_f, noyaux_x, mode='constant')
 noyaux_y = np.transpose(noyaux_x)
 Iy = scipy.ndimage.filters.convolve(camera_f, noyaux_y, mode='constant')
-io.imshow(Iy)
+io.imshow(Ix)
 
 Ix_2 = np.square(Ix)
 Iy_2 = np.square(Iy)

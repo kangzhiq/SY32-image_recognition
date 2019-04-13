@@ -61,3 +61,7 @@ for i in range(300):
 descr0 #histo de l'image 
 d = sp.spatial.distance_matrix(descr0,discr_histy)
 d_i = np.argsort(d[0,:])
+
+
+
+
